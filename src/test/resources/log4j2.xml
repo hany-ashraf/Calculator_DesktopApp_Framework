@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" monitorInterval="30">
+
+    <Appenders>
+
+        <!-- ================= Console Appender ================= -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} | %-5p | %c{1} | %m%n"/>
+        </Console>
+
+        <!-- ================= General Log File ================= -->
+        <RollingFile name="GeneralLog"
+                     fileName="logs/DesktopTest.log"
+                     filePattern="logs/DesktopTest-%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} | %-5p | %c{1} | %m%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+            </Policies>
+        </RollingFile>
+
+        <!-- ================= Failure Log File ================= -->
+        <RollingFile name="FailureLog"
+                     fileName="logs/DesktopTestFailures.log"
+                     filePattern="logs/DesktopTestFailures-%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} | %-5p | %c{1} | %m%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+            </Policies>
+        </RollingFile>
+
+        <!-- ================= Screenshot Log ================= -->
+        <File name="ScreenshotLog" fileName="logs/ScreenshotEvents.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} | %-5p | %c{1} | %m%n"/>
+        </File>
+
+        <!-- ================= HTML Summary Log ================= -->
+        <File name="HtmlReport" fileName="logs/DesktopTestReport.html">
+            <HTMLLayout title="Windows Desktop Test Execution Report"
+                        locationInfo="true"
+                        charset="UTF-8"/>
+        </File>
+
+    </Appenders>
+
+    <Loggers>
+
+        <!-- ===== Logger for Test Failures ===== -->
+        <Logger name="TestFailureLogger" level="ERROR" additivity="false">
+            <AppenderRef ref="FailureLog"/>
+            <AppenderRef ref="Console"/>
+        </Logger>
+
+        <!-- ===== Logger for Screenshot Capture Events ===== -->
+        <Logger name="ScreenshotLogger" level="INFO" additivity="false">
+            <AppenderRef ref="ScreenshotLog"/>
+            <AppenderRef ref="Console"/>
+        </Logger>
+
+        <!-- ===== Logger for General Test Execution ===== -->
+        <Logger name="DesktopTestLogger" level="INFO" additivity="false">
+            <AppenderRef ref="GeneralLog"/>
+            <AppenderRef ref="Console"/>
+        </Logger>
+
+        <!-- ===== Root Logger ===== -->
+        <Root level="INFO">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="GeneralLog"/>
+            <AppenderRef ref="HtmlReport"/>
+        </Root>
+
+    </Loggers>
+
+</Configuration>

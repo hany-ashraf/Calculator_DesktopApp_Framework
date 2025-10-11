@@ -1,0 +1,268 @@
+2025-10-11 19:42:45.739 | INFO  | TestExecutionListener | === SUITE STARTED: Calculator Automation Suite ===
+2025-10-11 19:42:45.791 | INFO  | TestExecutionListener | Suite parameters: {calculatorAppPath=C:\Windows\System32\calc.exe, winAppDriverUrl=http://127.0.0.1:4723}
+2025-10-11 19:42:55.926 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testAddition
+2025-10-11 19:43:01.687 | INFO  | TestExecutionListener | ✅ TEST PASSED: testcases.TC01_Calculator.testAddition (Duration: 5739 ms)
+2025-10-11 19:43:01.884 | INFO  | TestExecutionListener | === SUITE FINISHED: Calculator Automation Suite ===
+2025-10-11 19:46:14.399 | INFO  | TestExecutionListener | === SUITE STARTED: Calculator Automation Suite ===
+2025-10-11 19:46:14.419 | INFO  | TestExecutionListener | Suite parameters: {calculatorAppPath=C:\Windows\System32\calc.exe, winAppDriverUrl=http://127.0.0.1:4723}
+2025-10-11 19:46:23.105 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testAddition
+2025-10-11 19:46:29.048 | INFO  | TestExecutionListener | ✅ TEST PASSED: testcases.TC01_Calculator.testAddition (Duration: 5922 ms)
+2025-10-11 19:46:29.331 | INFO  | TestExecutionListener | === SUITE FINISHED: Calculator Automation Suite ===
+2025-10-11 20:02:16.090 | INFO  | TestExecutionListener | === SUITE STARTED: Calculator Automation Suite ===
+2025-10-11 20:02:16.106 | INFO  | TestExecutionListener | Suite parameters: {calculatorAppPath=C:\Windows\System32\calc.exe, winAppDriverUrl=http://127.0.0.1:4723}
+2025-10-11 20:02:24.505 | INFO  | testBase | App Starting
+2025-10-11 20:02:25.962 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testAddition
+2025-10-11 20:02:25.994 | WARN  | TestExecutionListener | ⚠️ TEST SKIPPED: testcases.TC01_Calculator.testAddition
+2025-10-11 20:02:25.994 | WARN  | TestExecutionListener | Skip reason: Command not implemented: POST: /session/4A7EB692-51FB-460E-818D-892950EC5699/url
+Command duration or timeout: 78 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-Q8SBOU5', ip: '192.168.8.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Capabilities {app: Microsoft.WindowsCalculator..., javascriptEnabled: true, platform: WINDOWS, platformName: Windows}
+Session ID: 4A7EB692-51FB-460E-818D-892950EC5699
+2025-10-11 20:02:26.007 | INFO  | testBase | close browser
+2025-10-11 20:02:30.536 | INFO  | testBase | App Starting
+2025-10-11 20:02:31.130 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testSubtraction
+2025-10-11 20:02:31.162 | WARN  | TestExecutionListener | ⚠️ TEST SKIPPED: testcases.TC01_Calculator.testSubtraction
+2025-10-11 20:02:31.162 | WARN  | TestExecutionListener | Skip reason: Command not implemented: POST: /session/4D79E76A-43D0-4A94-B68A-61A0C52D6789/url
+Command duration or timeout: 62 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-Q8SBOU5', ip: '192.168.8.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Capabilities {app: Microsoft.WindowsCalculator..., javascriptEnabled: true, platform: WINDOWS, platformName: Windows}
+Session ID: 4D79E76A-43D0-4A94-B68A-61A0C52D6789
+2025-10-11 20:02:31.177 | INFO  | testBase | close browser
+2025-10-11 20:02:35.581 | INFO  | testBase | App Starting
+2025-10-11 20:02:36.167 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testMultiplication
+2025-10-11 20:02:36.182 | WARN  | TestExecutionListener | ⚠️ TEST SKIPPED: testcases.TC01_Calculator.testMultiplication
+2025-10-11 20:02:36.198 | WARN  | TestExecutionListener | Skip reason: Command not implemented: POST: /session/F201782B-FAB9-4F7B-96DB-B295273178D0/url
+Command duration or timeout: 47 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-Q8SBOU5', ip: '192.168.8.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Capabilities {app: Microsoft.WindowsCalculator..., javascriptEnabled: true, platform: WINDOWS, platformName: Windows}
+Session ID: F201782B-FAB9-4F7B-96DB-B295273178D0
+2025-10-11 20:02:36.207 | INFO  | testBase | close browser
+2025-10-11 20:02:40.544 | INFO  | testBase | App Starting
+2025-10-11 20:02:41.233 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testDivision
+2025-10-11 20:02:41.249 | WARN  | TestExecutionListener | ⚠️ TEST SKIPPED: testcases.TC01_Calculator.testDivision
+2025-10-11 20:02:41.249 | WARN  | TestExecutionListener | Skip reason: Command not implemented: POST: /session/9835AF16-3BE4-482E-BF75-F5ACC3BAF66D/url
+Command duration or timeout: 47 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-Q8SBOU5', ip: '192.168.8.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Capabilities {app: Microsoft.WindowsCalculator..., javascriptEnabled: true, platform: WINDOWS, platformName: Windows}
+Session ID: 9835AF16-3BE4-482E-BF75-F5ACC3BAF66D
+2025-10-11 20:02:41.264 | INFO  | testBase | close browser
+2025-10-11 20:02:41.446 | INFO  | TestExecutionListener | === SUITE FINISHED: Calculator Automation Suite ===
+2025-10-11 22:15:57.848 | INFO  | TestExecutionListener | === SUITE STARTED: Calculator Automation Suite ===
+2025-10-11 22:15:57.903 | INFO  | TestExecutionListener | Suite parameters: {calculatorAppPath=C:\Windows\System32\calc.exe, winAppDriverUrl=http://127.0.0.1:4723}
+2025-10-11 22:16:14.061 | INFO  | testBase | App Starting
+2025-10-11 22:16:15.176 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testAddition
+2025-10-11 22:16:15.191 | WARN  | TestExecutionListener | ⚠️ TEST SKIPPED: testcases.TC01_Calculator.testAddition
+2025-10-11 22:16:15.191 | WARN  | TestExecutionListener | Skip reason: Command not implemented: POST: /session/4520D2D1-5D7A-4226-9CA1-ED28AB948CEB/url
+Command duration or timeout: 47 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-Q8SBOU5', ip: '192.168.8.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Capabilities {app: Microsoft.WindowsCalculator..., javascriptEnabled: true, platform: WINDOWS, platformName: Windows}
+Session ID: 4520D2D1-5D7A-4226-9CA1-ED28AB948CEB
+2025-10-11 22:16:15.191 | INFO  | testBase | close browser
+2025-10-11 22:16:19.931 | INFO  | testBase | App Starting
+2025-10-11 22:16:20.541 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testSubtraction
+2025-10-11 22:16:20.541 | WARN  | TestExecutionListener | ⚠️ TEST SKIPPED: testcases.TC01_Calculator.testSubtraction
+2025-10-11 22:16:20.541 | WARN  | TestExecutionListener | Skip reason: Command not implemented: POST: /session/CD00AE4E-1848-4431-99BC-8D43A517D6C6/url
+Command duration or timeout: 47 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-Q8SBOU5', ip: '192.168.8.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Capabilities {app: Microsoft.WindowsCalculator..., javascriptEnabled: true, platform: WINDOWS, platformName: Windows}
+Session ID: CD00AE4E-1848-4431-99BC-8D43A517D6C6
+2025-10-11 22:16:20.556 | INFO  | testBase | close browser
+2025-10-11 22:18:30.069 | INFO  | TestExecutionListener | === SUITE STARTED: Calculator Automation Suite ===
+2025-10-11 22:18:30.084 | INFO  | TestExecutionListener | Suite parameters: {calculatorAppPath=C:\Windows\System32\calc.exe, winAppDriverUrl=http://127.0.0.1:4723}
+2025-10-11 22:18:42.350 | INFO  | testBase | App Starting
+2025-10-11 22:18:44.466 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testAddition
+2025-10-11 22:18:44.529 | WARN  | TestExecutionListener | ⚠️ TEST SKIPPED: testcases.TC01_Calculator.testAddition
+2025-10-11 22:18:44.529 | WARN  | TestExecutionListener | Skip reason: Command not implemented: POST: /session/86B66363-4958-4F94-A1F5-BF7F4729ED17/url
+Command duration or timeout: 93 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-Q8SBOU5', ip: '192.168.8.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Capabilities {app: Microsoft.WindowsCalculator..., javascriptEnabled: true, platform: WINDOWS, platformName: Windows}
+Session ID: 86B66363-4958-4F94-A1F5-BF7F4729ED17
+2025-10-11 22:18:44.529 | INFO  | testBase | close browser
+2025-10-11 22:18:48.903 | INFO  | testBase | App Starting
+2025-10-11 22:18:49.544 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testSubtraction
+2025-10-11 22:18:49.559 | WARN  | TestExecutionListener | ⚠️ TEST SKIPPED: testcases.TC01_Calculator.testSubtraction
+2025-10-11 22:18:49.575 | WARN  | TestExecutionListener | Skip reason: Command not implemented: POST: /session/72AC6410-525A-41CB-836B-207D38633413/url
+Command duration or timeout: 63 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-Q8SBOU5', ip: '192.168.8.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Capabilities {app: Microsoft.WindowsCalculator..., javascriptEnabled: true, platform: WINDOWS, platformName: Windows}
+Session ID: 72AC6410-525A-41CB-836B-207D38633413
+2025-10-11 22:18:49.575 | INFO  | testBase | close browser
+2025-10-11 22:18:53.804 | INFO  | testBase | App Starting
+2025-10-11 22:18:54.463 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testMultiplication
+2025-10-11 22:18:54.492 | WARN  | TestExecutionListener | ⚠️ TEST SKIPPED: testcases.TC01_Calculator.testMultiplication
+2025-10-11 22:18:54.492 | WARN  | TestExecutionListener | Skip reason: Command not implemented: POST: /session/21795E51-00E9-45C3-ACD3-4BC4F29C67D0/url
+Command duration or timeout: 78 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-Q8SBOU5', ip: '192.168.8.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Capabilities {app: Microsoft.WindowsCalculator..., javascriptEnabled: true, platform: WINDOWS, platformName: Windows}
+Session ID: 21795E51-00E9-45C3-ACD3-4BC4F29C67D0
+2025-10-11 22:18:54.508 | INFO  | testBase | close browser
+2025-10-11 22:18:58.695 | INFO  | testBase | App Starting
+2025-10-11 22:18:59.337 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testDivision
+2025-10-11 22:18:59.353 | WARN  | TestExecutionListener | ⚠️ TEST SKIPPED: testcases.TC01_Calculator.testDivision
+2025-10-11 22:18:59.369 | WARN  | TestExecutionListener | Skip reason: Command not implemented: POST: /session/AD7E1DEB-96FE-433F-9963-D837B37887CE/url
+Command duration or timeout: 78 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-Q8SBOU5', ip: '192.168.8.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Capabilities {app: Microsoft.WindowsCalculator..., javascriptEnabled: true, platform: WINDOWS, platformName: Windows}
+Session ID: AD7E1DEB-96FE-433F-9963-D837B37887CE
+2025-10-11 22:18:59.369 | INFO  | testBase | close browser
+2025-10-11 22:18:59.511 | INFO  | TestExecutionListener | === SUITE FINISHED: Calculator Automation Suite ===
+2025-10-11 22:37:20.643 | INFO  | TestExecutionListener | === SUITE STARTED: Calculator Automation Suite ===
+2025-10-11 22:37:20.649 | INFO  | TestExecutionListener | Suite parameters: {calculatorAppPath=C:\Windows\System32\calc.exe, winAppDriverUrl=http://127.0.0.1:4723}
+2025-10-11 22:37:30.125 | INFO  | testBase | App Starting
+2025-10-11 22:37:31.054 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testAddition
+2025-10-11 22:37:31.073 | WARN  | TestExecutionListener | ⚠️ TEST SKIPPED: testcases.TC01_Calculator.testAddition
+2025-10-11 22:37:31.074 | WARN  | TestExecutionListener | Skip reason: Command not implemented: POST: /session/DA5D0365-4901-47B5-B28F-E347090A794A/url
+Command duration or timeout: 64 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-Q8SBOU5', ip: '192.168.8.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Capabilities {app: Microsoft.WindowsCalculator..., javascriptEnabled: true, platform: WINDOWS, platformName: Windows}
+Session ID: DA5D0365-4901-47B5-B28F-E347090A794A
+2025-10-11 22:37:31.086 | INFO  | testBase | close browser
+2025-10-11 22:37:34.815 | INFO  | testBase | App Starting
+2025-10-11 22:37:35.462 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testSubtraction
+2025-10-11 22:37:35.481 | WARN  | TestExecutionListener | ⚠️ TEST SKIPPED: testcases.TC01_Calculator.testSubtraction
+2025-10-11 22:37:35.484 | WARN  | TestExecutionListener | Skip reason: Command not implemented: POST: /session/22C0B7D9-9325-43A8-A504-E9E6A4981727/url
+Command duration or timeout: 72 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-Q8SBOU5', ip: '192.168.8.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Capabilities {app: Microsoft.WindowsCalculator..., javascriptEnabled: true, platform: WINDOWS, platformName: Windows}
+Session ID: 22C0B7D9-9325-43A8-A504-E9E6A4981727
+2025-10-11 22:37:35.487 | INFO  | testBase | close browser
+2025-10-11 22:37:39.412 | INFO  | testBase | App Starting
+2025-10-11 22:37:40.645 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testMultiplication
+2025-10-11 22:37:40.653 | WARN  | TestExecutionListener | ⚠️ TEST SKIPPED: testcases.TC01_Calculator.testMultiplication
+2025-10-11 22:37:40.656 | WARN  | TestExecutionListener | Skip reason: Command not implemented: POST: /session/546CAF1D-5F7D-459D-B8D6-86E5D9A9F7DC/url
+Command duration or timeout: 71 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-Q8SBOU5', ip: '192.168.8.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Capabilities {app: Microsoft.WindowsCalculator..., javascriptEnabled: true, platform: WINDOWS, platformName: Windows}
+Session ID: 546CAF1D-5F7D-459D-B8D6-86E5D9A9F7DC
+2025-10-11 22:37:40.660 | INFO  | testBase | close browser
+2025-10-11 22:37:44.816 | INFO  | testBase | App Starting
+2025-10-11 22:37:46.202 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testDivision
+2025-10-11 22:37:46.210 | WARN  | TestExecutionListener | ⚠️ TEST SKIPPED: testcases.TC01_Calculator.testDivision
+2025-10-11 22:37:46.211 | WARN  | TestExecutionListener | Skip reason: Command not implemented: POST: /session/8C03271C-1DCB-4BCF-8A25-6EF4B4A50E62/url
+Command duration or timeout: 209 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-Q8SBOU5', ip: '192.168.8.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Capabilities {app: Microsoft.WindowsCalculator..., javascriptEnabled: true, platform: WINDOWS, platformName: Windows}
+Session ID: 8C03271C-1DCB-4BCF-8A25-6EF4B4A50E62
+2025-10-11 22:37:46.214 | INFO  | testBase | close browser
+2025-10-11 22:37:46.508 | INFO  | TestExecutionListener | === SUITE FINISHED: Calculator Automation Suite ===
+2025-10-11 22:41:21.346 | INFO  | TestExecutionListener | === SUITE STARTED: Calculator Automation Suite ===
+2025-10-11 22:41:21.355 | INFO  | TestExecutionListener | Suite parameters: {calculatorAppPath=C:\Windows\System32\calc.exe, winAppDriverUrl=http://127.0.0.1:4723}
+2025-10-11 22:41:29.946 | INFO  | testBase | App Starting
+2025-10-11 22:41:30.948 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testAddition
+2025-10-11 22:41:30.964 | WARN  | TestExecutionListener | ⚠️ TEST SKIPPED: testcases.TC01_Calculator.testAddition
+2025-10-11 22:41:30.964 | WARN  | TestExecutionListener | Skip reason: null value in entry: url=null
+2025-10-11 22:41:30.969 | INFO  | testBase | close browser
+2025-10-11 22:41:35.236 | INFO  | testBase | App Starting
+2025-10-11 22:41:35.847 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testSubtraction
+2025-10-11 22:41:35.855 | WARN  | TestExecutionListener | ⚠️ TEST SKIPPED: testcases.TC01_Calculator.testSubtraction
+2025-10-11 22:41:35.856 | WARN  | TestExecutionListener | Skip reason: null value in entry: url=null
+2025-10-11 22:41:35.859 | INFO  | testBase | close browser
+2025-10-11 22:42:48.613 | INFO  | TestExecutionListener | === SUITE STARTED: Calculator Automation Suite ===
+2025-10-11 22:42:48.621 | INFO  | TestExecutionListener | Suite parameters: {calculatorAppPath=C:\Windows\System32\calc.exe, winAppDriverUrl=http://127.0.0.1:4723}
+2025-10-11 22:42:53.614 | INFO  | testBase | App Starting
+2025-10-11 22:42:54.491 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testAddition
+2025-10-11 22:42:54.512 | WARN  | TestExecutionListener | ⚠️ TEST SKIPPED: testcases.TC01_Calculator.testAddition
+2025-10-11 22:42:54.513 | WARN  | TestExecutionListener | Skip reason: Command not implemented: POST: /session/FF01BE86-8397-4593-B1D4-A5E4D432B0F4/url
+Command duration or timeout: 66 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-Q8SBOU5', ip: '192.168.8.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: io.appium.java_client.windows.WindowsDriver
+Capabilities {app: Microsoft.WindowsCalculator..., javascriptEnabled: true, platform: WINDOWS, platformName: Windows}
+Session ID: FF01BE86-8397-4593-B1D4-A5E4D432B0F4
+2025-10-11 22:42:54.668 | INFO  | TestExecutionListener | === SUITE FINISHED: Calculator Automation Suite ===
+2025-10-11 22:43:32.832 | INFO  | TestExecutionListener | === SUITE STARTED: Calculator Automation Suite ===
+2025-10-11 22:43:32.840 | INFO  | TestExecutionListener | Suite parameters: {calculatorAppPath=C:\Windows\System32\calc.exe, winAppDriverUrl=http://127.0.0.1:4723}
+2025-10-11 22:43:38.235 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testAddition
+2025-10-11 22:43:44.587 | ERROR | TestExecutionListener | ❌ TEST FAILED: testcases.TC01_Calculator.testAddition (Reason: Addition result should be 42 expected [42] but found [251])
+2025-10-11 22:43:44.589 | WARN  | TestExecutionListener | ⚠️ No WindowsDriver found — screenshot skipped
+2025-10-11 22:43:44.678 | INFO  | TestExecutionListener | 📄 Failure report created: C:\Shady Automation Course\Projects During Live Sessions\Sesion_3\Calculator\test-reports\testAddition_2025-10-11_22-43-44_failure_report.html
+2025-10-11 22:43:44.979 | INFO  | TestExecutionListener | === SUITE FINISHED: Calculator Automation Suite ===
+2025-10-11 22:45:58.920 | INFO  | TestExecutionListener | === SUITE STARTED: Calculator Automation Suite ===
+2025-10-11 22:45:58.928 | INFO  | TestExecutionListener | Suite parameters: {calculatorAppPath=C:\Windows\System32\calc.exe, winAppDriverUrl=http://127.0.0.1:4723}
+2025-10-11 22:46:05.029 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testAddition
+2025-10-11 22:46:11.271 | INFO  | TestExecutionListener | ✅ TEST PASSED: testcases.TC01_Calculator.testAddition (Duration: 6225 ms)
+2025-10-11 22:46:16.987 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testSubtraction
+2025-10-11 22:46:24.821 | INFO  | TestExecutionListener | ✅ TEST PASSED: testcases.TC01_Calculator.testSubtraction (Duration: 7832 ms)
+2025-10-11 22:46:30.561 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testMultiplication
+2025-10-11 22:46:35.438 | INFO  | TestExecutionListener | ✅ TEST PASSED: testcases.TC01_Calculator.testMultiplication (Duration: 4875 ms)
+2025-10-11 22:46:40.600 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testDivision
+2025-10-11 22:46:46.092 | INFO  | TestExecutionListener | ✅ TEST PASSED: testcases.TC01_Calculator.testDivision (Duration: 5490 ms)
+2025-10-11 22:46:46.223 | INFO  | TestExecutionListener | === SUITE FINISHED: Calculator Automation Suite ===
+2025-10-11 22:55:18.528 | INFO  | TestExecutionListener | === SUITE STARTED: Calculator Automation Suite ===
+2025-10-11 22:55:18.536 | INFO  | TestExecutionListener | Suite parameters: {calculatorAppPath=C:\Windows\System32\calc.exe, winAppDriverUrl=http://127.0.0.1:4723}
+2025-10-11 22:55:23.975 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testAddition
+2025-10-11 22:55:23.992 | WARN  | TestExecutionListener | ⚠️ TEST SKIPPED: testcases.TC01_Calculator.testAddition
+2025-10-11 22:55:23.993 | WARN  | TestExecutionListener | Skip reason: Cannot invoke "utils.Utility.getCurrentTimestamp()" because "this.utility" is null
+2025-10-11 22:55:28.719 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testSubtraction
+2025-10-11 22:55:28.728 | WARN  | TestExecutionListener | ⚠️ TEST SKIPPED: testcases.TC01_Calculator.testSubtraction
+2025-10-11 22:55:28.729 | WARN  | TestExecutionListener | Skip reason: Cannot invoke "utils.Utility.getCurrentTimestamp()" because "this.utility" is null
+2025-10-11 22:55:33.254 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testMultiplication
+2025-10-11 22:55:33.268 | WARN  | TestExecutionListener | ⚠️ TEST SKIPPED: testcases.TC01_Calculator.testMultiplication
+2025-10-11 22:55:33.269 | WARN  | TestExecutionListener | Skip reason: Cannot invoke "utils.Utility.getCurrentTimestamp()" because "this.utility" is null
+2025-10-11 22:56:03.888 | INFO  | TestExecutionListener | === SUITE STARTED: Calculator Automation Suite ===
+2025-10-11 22:56:03.897 | INFO  | TestExecutionListener | Suite parameters: {calculatorAppPath=C:\Windows\System32\calc.exe, winAppDriverUrl=http://127.0.0.1:4723}
+2025-10-11 22:56:08.866 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testAddition
+2025-10-11 22:56:08.886 | WARN  | TestExecutionListener | ⚠️ TEST SKIPPED: testcases.TC01_Calculator.testAddition
+2025-10-11 22:56:08.888 | WARN  | TestExecutionListener | Skip reason: Cannot invoke "utils.Utility.getCurrentTimestamp()" because "this.utility" is null
+2025-10-11 22:56:34.011 | INFO  | TestExecutionListener | === SUITE STARTED: Calculator Automation Suite ===
+2025-10-11 22:56:34.018 | INFO  | TestExecutionListener | Suite parameters: {calculatorAppPath=C:\Windows\System32\calc.exe, winAppDriverUrl=http://127.0.0.1:4723}
+2025-10-11 22:56:38.885 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testAddition
+2025-10-11 22:56:38.925 | WARN  | TestExecutionListener | ⚠️ TEST SKIPPED: testcases.TC01_Calculator.testAddition
+2025-10-11 22:56:38.927 | WARN  | TestExecutionListener | Skip reason: Cannot invoke "utils.Utility.getCurrentTimestamp()" because "this.utility" is null
+2025-10-11 22:57:27.854 | INFO  | TestExecutionListener | === SUITE STARTED: Calculator Automation Suite ===
+2025-10-11 22:57:27.867 | INFO  | TestExecutionListener | Suite parameters: {calculatorAppPath=C:\Windows\System32\calc.exe, winAppDriverUrl=http://127.0.0.1:4723}
+2025-10-11 22:57:33.627 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testAddition
+2025-10-11 22:57:39.753 | ERROR | TestExecutionListener | ❌ TEST FAILED: testcases.TC01_Calculator.testAddition (Reason: Addition result should be 42 expected [42] but found [22])
+2025-10-11 22:57:39.766 | WARN  | TestExecutionListener | ⚠️ No WindowsDriver found — screenshot skipped
+2025-10-11 22:57:39.820 | INFO  | TestExecutionListener | 📄 Failure report created: C:\Shady Automation Course\Projects During Live Sessions\Sesion_3\Calculator\test-reports\testAddition_2025-10-11_22-57-39_failure_report.html
+2025-10-11 22:57:50.313 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testSubtraction
+2025-10-11 22:57:50.322 | WARN  | TestExecutionListener | ⚠️ TEST SKIPPED: testcases.TC01_Calculator.testSubtraction
+2025-10-11 22:57:50.323 | WARN  | TestExecutionListener | Skip reason: Calculator initialization failed
+2025-10-11 22:57:55.427 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testMultiplication
+2025-10-11 22:57:59.935 | ERROR | TestExecutionListener | ❌ TEST FAILED: testcases.TC01_Calculator.testMultiplication (Reason: Multiplication result should be 42 expected [42] but found [36])
+2025-10-11 22:57:59.937 | WARN  | TestExecutionListener | ⚠️ No WindowsDriver found — screenshot skipped
+2025-10-11 22:57:59.956 | INFO  | TestExecutionListener | 📄 Failure report created: C:\Shady Automation Course\Projects During Live Sessions\Sesion_3\Calculator\test-reports\testMultiplication_2025-10-11_22-57-59_failure_report.html
+2025-10-11 22:58:04.931 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testDivision
+2025-10-11 22:58:09.865 | ERROR | TestExecutionListener | ❌ TEST FAILED: testcases.TC01_Calculator.testDivision (Reason: Division result should be 42 expected [42] but found [88])
+2025-10-11 22:58:09.866 | WARN  | TestExecutionListener | ⚠️ No WindowsDriver found — screenshot skipped
+2025-10-11 22:58:09.868 | INFO  | TestExecutionListener | 📄 Failure report created: C:\Shady Automation Course\Projects During Live Sessions\Sesion_3\Calculator\test-reports\testDivision_2025-10-11_22-58-09_failure_report.html
+2025-10-11 22:58:10.054 | INFO  | TestExecutionListener | === SUITE FINISHED: Calculator Automation Suite ===
+2025-10-11 23:35:17.182 | INFO  | TestExecutionListener | === SUITE STARTED: Calculator Automation Suite ===
+2025-10-11 23:35:17.266 | INFO  | TestExecutionListener | Suite parameters: {calculatorAppPath=C:\Windows\System32\calc.exe, winAppDriverUrl=http://127.0.0.1:4723}
+2025-10-11 23:35:40.593 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testAddition
+2025-10-11 23:35:46.449 | INFO  | TestExecutionListener | ✅ TEST PASSED: testcases.TC01_Calculator.testAddition (Duration: 5796 ms)
+2025-10-11 23:35:51.725 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testSubtraction
+2025-10-11 23:35:59.229 | INFO  | TestExecutionListener | ✅ TEST PASSED: testcases.TC01_Calculator.testSubtraction (Duration: 7500 ms)
+2025-10-11 23:36:03.970 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testMultiplication
+2025-10-11 23:36:08.271 | INFO  | TestExecutionListener | ✅ TEST PASSED: testcases.TC01_Calculator.testMultiplication (Duration: 4299 ms)
+2025-10-11 23:36:12.706 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testDivision
+2025-10-11 23:36:17.462 | INFO  | TestExecutionListener | ✅ TEST PASSED: testcases.TC01_Calculator.testDivision (Duration: 4755 ms)
+2025-10-11 23:36:17.591 | INFO  | TestExecutionListener | === SUITE FINISHED: Calculator Automation Suite ===

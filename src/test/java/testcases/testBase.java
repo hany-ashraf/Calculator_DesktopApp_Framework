@@ -1,24 +1,52 @@
 package testcases;
 
+import com.aventstack.chaintest.plugins.ChainTestListener;
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+import com.aventstack.extentreports.reporter.configuration.Theme;
 import io.appium.java_client.windows.WindowsDriver;
+import listeners.TestExecutionListener;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebElement;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
 import pages.P01_CalculatorPage;
 import utils.ConfigReader;
 import utils.DriverManager;
+import listeners.TestExecutionListener;
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.Properties;
 
 /**
  * Base Test Class for Calculator Automation
  * Handles driver lifecycle, configuration, and common test utilities
  */
+@Listeners({ChainTestListener.class, TestExecutionListener.class})
 public class testBase {
 
+    static FileInputStream readProperty;
+    static Properties prop;
+    private static String PROJECT_NAME = null;
+    private static String PROJECT_URL = null;
     protected WindowsDriver<WebElement> driver;
     protected P01_CalculatorPage calculatorPage;
+
+    // logger
+    private static final Logger logger = LogManager.getLogger(testBase.class);
+
+    // extend report
+    protected static ExtentSparkReporter htmlReporter;
+    protected static ExtentReports extent;
+    protected static ExtentTest test;
 
     // Load configuration once when class is loaded
     static {
@@ -31,11 +59,46 @@ public class testBase {
         }
     }
 
+    @BeforeSuite
+    public void beforeSuite() throws Exception {
+
+        // initialize the HtmlReporter
+        htmlReporter = new ExtentSparkReporter(System.getProperty("user.dir") + "/testReport.html");
+
+        //initialize ExtentReports and attach the HtmlReporter
+        extent = new ExtentReports();
+        extent.attachReporter(htmlReporter);
+
+        setProjectDetails();
+
+        // initialize test
+        test = extent.createTest(PROJECT_NAME + " Test Automation Project");
+
+        //configuration items to change the look and fee add content, manage tests etc
+        htmlReporter.config().setDocumentTitle(PROJECT_NAME + " Test Automation Report");
+        htmlReporter.config().setReportName(PROJECT_NAME + " Test Report");
+        htmlReporter.config().setTheme(Theme.STANDARD);
+        htmlReporter.config().setTimeStampFormat("EEEE, MMMM dd, yyyy, hh:mm a '('zzz')'");
+    }
+
+
     /**
      * Suite-level setup - runs once before all tests
      * Configures WinAppDriver URL and Calculator path
      */
     @BeforeSuite(alwaysRun = true)
+    private void setProjectDetails() throws IOException {
+        // TODO: Step1: define object of properties file
+        readProperty = new FileInputStream(
+                System.getProperty("user.dir") + "/src/test/resources/properties/environment.properties");
+        prop = new Properties();
+        prop.load(readProperty);
+
+        // define project name from properties file
+        PROJECT_NAME = prop.getProperty("projectName");
+        PROJECT_URL = prop.getProperty("url");
+    }
+
     @Parameters({"winAppDriverUrl", "calculatorAppPath"})
     public void setupSuite(
             @Optional("http://127.0.0.1:4723") String winAppDriverUrl,
