@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Calculator Automation Suite" verbose="2" parallel="false">
+
+    <!-- Global parameters (shared by all tests) -->
+    <parameter name="calculatorAppPath" value="C:\Windows\System32\calc.exe"/>
+    <parameter name="winAppDriverUrl" value="http://127.0.0.1:4723"/>
+
+    <!-- Each test below runs a single method independently -->
+    <test name="Addition Test">
+        <classes>
+            <class name="testcases.TC01_Calculator">
+                <methods>
+                    <include name="testAddition"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Subtraction Test">
+        <classes>
+            <class name="testcases.TC01_Calculator">
+                <methods>
+                    <include name="testSubtraction"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Multiplication Test">
+        <classes>
+            <class name="testcases.TC01_Calculator">
+                <methods>
+                    <include name="testMultiplication"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Division Test">
+        <classes>
+            <class name="testcases.TC01_Calculator">
+                <methods>
+                    <include name="testDivision"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
