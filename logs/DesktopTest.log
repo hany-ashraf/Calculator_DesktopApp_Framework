@@ -266,3 +266,16 @@ Session ID: FF01BE86-8397-4593-B1D4-A5E4D432B0F4
 2025-10-11 23:36:12.706 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testDivision
 2025-10-11 23:36:17.462 | INFO  | TestExecutionListener | ✅ TEST PASSED: testcases.TC01_Calculator.testDivision (Duration: 4755 ms)
 2025-10-11 23:36:17.591 | INFO  | TestExecutionListener | === SUITE FINISHED: Calculator Automation Suite ===
+2025-10-25 14:47:15.133 | INFO  | TestExecutionListener | === SUITE STARTED: Calculator Automation Suite ===
+2025-10-25 14:47:15.146 | INFO  | TestExecutionListener | Suite parameters: {calculatorAppPath=C:\Windows\System32\calc.exe, winAppDriverUrl=http://127.0.0.1:4723}
+2025-10-25 14:47:20.632 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testAddition
+2025-10-25 14:47:25.608 | INFO  | TestExecutionListener | ✅ TEST PASSED: testcases.TC01_Calculator.testAddition (Duration: 4963 ms)
+2025-10-25 14:47:29.659 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testSubtraction
+2025-10-25 14:47:35.306 | INFO  | TestExecutionListener | ✅ TEST PASSED: testcases.TC01_Calculator.testSubtraction (Duration: 5637 ms)
+2025-10-25 14:47:39.347 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testMultiplication
+2025-10-25 14:47:43.269 | ERROR | TestExecutionListener | ❌ TEST FAILED: testcases.TC01_Calculator.testMultiplication (Reason: Multiplication result should be 42 expected [42] but found [6])
+2025-10-25 14:47:43.271 | WARN  | TestExecutionListener | ⚠️ No WindowsDriver found — screenshot skipped
+2025-10-25 14:47:43.285 | INFO  | TestExecutionListener | 📄 Failure report created: C:\Automation Projects\Calculator_DesktopApp_Framework\test-reports\testMultiplication_2025-10-25_14-47-43_failure_report.html
+2025-10-25 14:47:47.357 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testDivision
+2025-10-25 14:47:51.545 | INFO  | TestExecutionListener | ✅ TEST PASSED: testcases.TC01_Calculator.testDivision (Duration: 4188 ms)
+2025-10-25 14:47:51.770 | INFO  | TestExecutionListener | === SUITE FINISHED: Calculator Automation Suite ===
