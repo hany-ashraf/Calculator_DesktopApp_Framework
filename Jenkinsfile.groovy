@@ -6,6 +6,11 @@ pipeline {
         jdk 'JDK 17'
     }
 
+    triggers {
+        // Trigger the pipeline automatically when code is pushed to GitHub
+        githubPush()
+    }
+
     stages {
         stage('Checkout') {
             steps {
@@ -30,7 +35,7 @@ pipeline {
 
         stage('Package / Deploy') {
             steps {
-                echo '📦 Packaging or deploying...'
+                echo '📦 Packaging / Deploying...'
                 bat 'mvn install'
             }
         }
