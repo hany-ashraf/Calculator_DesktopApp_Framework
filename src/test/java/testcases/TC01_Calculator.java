@@ -12,6 +12,7 @@ public class TC01_Calculator extends testBase{
 
     //private WindowsDriver driver;
     //private P01_CalculatorPage calculatorPage;
+    //Test
     private static final String WINAPPDRIVER_URL = "http://127.0.0.1:4723";
 
 
