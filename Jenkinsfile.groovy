@@ -6,51 +6,68 @@ pipeline {
         jdk 'JDK 17'
     }
 
-    triggers {
-        // Trigger the pipeline automatically when code is pushed to GitHub
-        githubPush()
-    }
-
     stages {
         stage('Checkout') {
             steps {
-                echo '📦 Checking out source code...'
-                checkout scm
+                git branch: 'main', url: 'https://github.com/hany-ashraf/Calculator_DesktopApp_Framework.git'
             }
         }
 
-        stage('Build') {
+        stage('Build and Test') {
             steps {
-                echo '🔨 Building project with Maven (skipping tests)...'
-                bat 'mvn clean package -DskipTests'
+                sh 'mvn clean test'
             }
         }
 
-        stage('Run Tests') {
+        stage('Publish TestNG Report') {
             steps {
-                echo '🧪 Running tests...'
-                bat 'mvn test'
-            }
-        }
-
-        stage('Package / Deploy') {
-            steps {
-                echo '📦 Packaging / Deploying...'
-                bat 'mvn install'
+                // Publish HTML TestNG report in Jenkins UI
+                publishHTML([
+                        reportDir: 'test-output',
+                        reportFiles: 'index.html',
+                        reportName: 'TestNG HTML Report',
+                        keepAll: true,
+                        alwaysLinkToLastBuild: true,
+                        allowMissing: true
+                ])
             }
         }
     }
 
     post {
         always {
-            echo '🧹 Cleaning up workspace...'
-            cleanWs()
+            // Archive TestNG report files
+            archiveArtifacts artifacts: 'test-output/**', fingerprint: true
         }
+
         success {
-            echo '✅ Pipeline completed successfully!'
+            emailext(
+                    subject: "✅ SUCCESS: ${env.JOB_NAME} #${env.BUILD_NUMBER}",
+                    body: """
+                    <h2>✅ TestNG Build Succeeded</h2>
+                    <p>Job: ${env.JOB_NAME} #${env.BUILD_NUMBER}</p>
+                    <p>Branch: ${env.GIT_BRANCH}</p>
+                    <p><a href="${env.BUILD_URL}">View Build</a></p>
+                    <p><a href="${env.BUILD_URL}TestNG_20HTML_20Report/">View TestNG Report</a></p>
+                """,
+                    mimeType: 'text/html',
+                    to: 'youremail@gmail.com',
+                    attachmentsPattern: 'test-output/index.html'
+            )
         }
+
         failure {
-            echo '❌ Pipeline failed.'
+            emailext(
+                    subject: "❌ FAILURE: ${env.JOB_NAME} #${env.BUILD_NUMBER}",
+                    body: """
+                    <h2>❌ TestNG Build Failed</h2>
+                    <p>Job: ${env.JOB_NAME} #${env.BUILD_NUMBER}</p>
+                    <p><a href="${env.BUILD_URL}console">${env.BUILD_URL}console</a></p>
+                """,
+                    mimeType: 'text/html',
+                    to: 'youremail@gmail.com',
+                    attachmentsPattern: 'test-output/index.html'
+            )
         }
     }
 }
