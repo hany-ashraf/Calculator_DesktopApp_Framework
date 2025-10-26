@@ -15,17 +15,17 @@ pipeline {
 
         stage('Build and Test') {
             steps {
-                sh 'mvn clean test'
+                // Use 'bat' for Windows instead of 'sh'
+                bat 'mvn clean test'
             }
         }
 
         stage('Publish TestNG Report') {
             steps {
-                // Publish HTML TestNG report in Jenkins UI
                 publishHTML([
                         reportDir: 'test-output',
                         reportFiles: 'index.html',
-                        reportName: 'TestNG HTML Report',
+                        reportName: 'Calculator Testcases Report',
                         keepAll: true,
                         alwaysLinkToLastBuild: true,
                         allowMissing: true
@@ -36,7 +36,6 @@ pipeline {
 
     post {
         always {
-            // Archive TestNG report files
             archiveArtifacts artifacts: 'test-output/**', fingerprint: true
         }
 
