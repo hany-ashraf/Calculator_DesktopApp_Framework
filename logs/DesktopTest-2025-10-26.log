@@ -1,0 +1,35 @@
+2025-10-26 09:31:31.311 | INFO  | TestExecutionListener | === SUITE STARTED: Calculator Automation Suite ===
+2025-10-26 09:31:31.323 | INFO  | TestExecutionListener | Suite parameters: {calculatorAppPath=C:\Windows\System32\calc.exe, winAppDriverUrl=http://127.0.0.1:4723}
+2025-10-26 09:31:35.837 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testAddition
+2025-10-26 09:31:40.565 | INFO  | TestExecutionListener | ✅ TEST PASSED: testcases.TC01_Calculator.testAddition (Duration: 4717 ms)
+2025-10-26 09:31:44.571 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testSubtraction
+2025-10-26 09:31:50.036 | INFO  | TestExecutionListener | ✅ TEST PASSED: testcases.TC01_Calculator.testSubtraction (Duration: 5462 ms)
+2025-10-26 09:31:53.953 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testMultiplication
+2025-10-26 09:31:57.564 | INFO  | TestExecutionListener | ✅ TEST PASSED: testcases.TC01_Calculator.testMultiplication (Duration: 3609 ms)
+2025-10-26 09:32:01.544 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testDivision
+2025-10-26 09:32:05.606 | INFO  | TestExecutionListener | ✅ TEST PASSED: testcases.TC01_Calculator.testDivision (Duration: 4061 ms)
+2025-10-26 09:32:05.694 | INFO  | TestExecutionListener | === SUITE FINISHED: Calculator Automation Suite ===
+2025-10-26 09:35:23.772 | INFO  | TestExecutionListener | === SUITE STARTED: Calculator Automation Suite ===
+2025-10-26 09:35:23.779 | INFO  | TestExecutionListener | Suite parameters: {calculatorAppPath=C:\Windows\System32\calc.exe, winAppDriverUrl=http://127.0.0.1:4723}
+2025-10-26 09:35:29.316 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testAddition
+2025-10-26 09:35:33.952 | INFO  | TestExecutionListener | ✅ TEST PASSED: testcases.TC01_Calculator.testAddition (Duration: 4624 ms)
+2025-10-26 09:35:37.768 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testSubtraction
+2025-10-26 09:35:43.284 | INFO  | TestExecutionListener | ✅ TEST PASSED: testcases.TC01_Calculator.testSubtraction (Duration: 5514 ms)
+2025-10-26 09:35:47.033 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testMultiplication
+2025-10-26 09:35:50.499 | INFO  | TestExecutionListener | ✅ TEST PASSED: testcases.TC01_Calculator.testMultiplication (Duration: 3465 ms)
+2025-10-26 09:35:54.351 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testDivision
+2025-10-26 09:35:58.237 | INFO  | TestExecutionListener | ✅ TEST PASSED: testcases.TC01_Calculator.testDivision (Duration: 3887 ms)
+2025-10-26 09:35:58.334 | INFO  | TestExecutionListener | === SUITE FINISHED: Calculator Automation Suite ===
+2025-10-26 09:54:50.554 | INFO  | TestExecutionListener | === SUITE STARTED: Calculator Automation Suite ===
+2025-10-26 09:54:50.564 | INFO  | TestExecutionListener | Suite parameters: {calculatorAppPath=C:\Windows\System32\calc.exe, winAppDriverUrl=http://127.0.0.1:4723}
+2025-10-26 09:54:55.769 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testAddition
+2025-10-26 09:55:00.462 | ERROR | TestExecutionListener | ❌ TEST FAILED: testcases.TC01_Calculator.testAddition (Reason: Addition result should be 42 expected [42] but found [9])
+2025-10-26 09:55:00.478 | WARN  | TestExecutionListener | ⚠️ No WindowsDriver found — screenshot skipped
+2025-10-26 09:55:00.482 | INFO  | TestExecutionListener | 📄 Failure report created: C:\Automation Projects\Calculator_DesktopApp_Framework\test-reports\testAddition_2025-10-26_09-55-00_failure_report.html
+2025-10-26 09:55:04.408 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testSubtraction
+2025-10-26 09:55:10.044 | INFO  | TestExecutionListener | ✅ TEST PASSED: testcases.TC01_Calculator.testSubtraction (Duration: 5636 ms)
+2025-10-26 09:55:13.936 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testMultiplication
+2025-10-26 09:55:17.510 | INFO  | TestExecutionListener | ✅ TEST PASSED: testcases.TC01_Calculator.testMultiplication (Duration: 3574 ms)
+2025-10-26 09:55:21.354 | INFO  | TestExecutionListener | ▶️ TEST STARTED: testcases.TC01_Calculator.testDivision
+2025-10-26 09:55:25.385 | INFO  | TestExecutionListener | ✅ TEST PASSED: testcases.TC01_Calculator.testDivision (Duration: 4031 ms)
+2025-10-26 09:55:25.544 | INFO  | TestExecutionListener | === SUITE FINISHED: Calculator Automation Suite ===
