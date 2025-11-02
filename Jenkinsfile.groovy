@@ -33,10 +33,10 @@ pipeline {
                     } else if (fileExists('test-reports')) {
                         reportDir = 'test-reports'
                     } else {
-                        error('❌ No TestNG/ChainTest report folder found!')
+                        error(' ❌ No TestNG/ChainTest report folder found!')
                     }
 
-                    echo "✅ Found report folder: ${reportDir}"
+                    echo " ✅ Found report folder: ${reportDir}"
 
                     publishHTML(target: [
                             reportDir: reportDir,
@@ -75,7 +75,7 @@ pipeline {
         }
 
         failure {
-            echo "📧 Sending failure email..."
+            echo " 📧 Sending failure email..."
             emailext(
                     subject: "❌ FAILURE: ${env.JOB_NAME} #${env.BUILD_NUMBER}",
                     body: """
